@@ -1,0 +1,65 @@
+starwar       	  v1
+secgame            ?
+seed               ?
+nb_players    	   4
+nb_rnds       	 300
+nb_rows       	  19
+nb_uni_cols   	  69
+nb_win_cols   	  35
+nb_ships_x_player  2
+nb_rnds_regen 	  40
+nb_miss_bonuses   10
+nb_point_bonuses  60
+bonus_miss         5
+bonus_pnts        10
+kill_pnts         30
+names             ? ? ? ?
+
+rnd 0
+
+   000000000011111111112222222222333333333344444444445555555555666666666
+   012345678901234567890123456789012345678901234567890123456789012345678
+00 ..........XXX.....P.........XXX...P...XXX...............XXX..........
+01 ..........XXX....PPP.........X...P.P..XXX.......X.......XXX..........
+02 ..........XXX..XPPMPPX.......X....P...XXX..X...XMX....X.XXX....M.....
+03 XXXX......XXX....PPP......P.XXX.......XXX.......X.......XXX.........X
+04 XXXXX.....XXXX....P.........XXX.M......X................XXX...P.P..XX
+05 ..........XXXXXXXXXXXXX.....XXX........X......XXXXXXXXXXXXX..........
+06 ............XXXXXXXXXXX.....XXX.......XXX......XXXXXXXXXX............
+07 ...................X.P......XXX.PPPPP.XXX...M.....X...X..............
+08 XXXXX..........XP.......XX...X....P...XXX...........X......P....XXXXX
+09 XXXXXXX........X...X.P..XX...X....P...XXX.........X...X...P.P.XXXXXXX
+10 XXXXX..........XP.......XX...X....P...XXX...M.......X......P....XXXXX
+11 ...................X.P......XXX.PPPPP.XXX.........X...X..............
+12 ............XXXXXXXXXXX.....XXX.......XXX......XXXXXXXXXX............
+13 ..........XXXXXXXXXXXXX.....XXX........X......XXXXXXXXXXXXX..........
+14 XXXXX.....XXXX....P.........XXX.M......X................XXX...P.P..XX
+15 XXXX......XXX....PPP......P.XXX...P...XXX.......X.......XXX.........X
+16 ..........XXX..XPPMPPX.......X...P.P..XXX..X...XMX....X.XXX....M.....
+17 ..........XXX....PPP.........X....P...XXX.......X.......XXX..........
+18 ..........XXX.....P.........XXX.......XXX...............XXX..........
+
+
+starships
+sid     row     column  nb_miss alive   time
+0	00	04	5	y	0
+1	02	03	5	y	0
+2	05	00	5	y	0
+3	07	00	5	y	0
+4	11	00	5	y	0
+5	13	00	5	y	0
+6	16	03	5	y	0
+7	18	04	5	y	0
+
+missiles
+0
+mid      sid	row     column
+
+players
+pid	score	status
+0	0	0
+1	0	0
+2	0	0
+3	0	0
+
+
