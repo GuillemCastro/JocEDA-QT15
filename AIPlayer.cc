@@ -6,7 +6,7 @@ using namespace std;
 
 
 
-#define PLAYER_NAME AIPlayer
+#define PLAYER_NAME Player
 
 
 struct PLAYER_NAME : public Player {
