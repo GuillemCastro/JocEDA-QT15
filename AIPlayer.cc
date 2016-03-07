@@ -6,7 +6,7 @@ using namespace std;
 
 
 
-#define PLAYER_NAME AGE_Grinvax
+#define PLAYER_NAME AIPlayer
 
 
 struct PLAYER_NAME : public Player {
