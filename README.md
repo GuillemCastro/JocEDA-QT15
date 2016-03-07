@@ -9,4 +9,4 @@ Para jugar contra el dummy hay que seguir unos pasos:
 3. Ejecuta `run.sh` alternativamente haz `make all && ./Game AIPlayer AIDummy default.cnf result.res`
 4. Abre el Viewer (si no has ejecutado run.sh) y selecciona result.res (que estará en la misma carpeta que el código)
 
-Este player es muy sencillo y solo llegó a la ronda 21, pero fue suficiente para sacar un 5.
+Este player es muy sencillo y solo llegó a la ronda 21.
